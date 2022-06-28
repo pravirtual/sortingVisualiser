@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  font-size: large;
+  font-weight: bold;
+}
+
+header{
+  background-color: #334257;
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+
+span{
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+p{
+  color:white;
+}
+
+.main_div{
+  display: flex;
+  flex-grow: 1;
+}
+
+.control_buttons{
+  padding-left: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 30%;
+}
+
+.sliderClass{
+  line-height: 2rem;
+  padding-bottom: 20px;
+}
+
+.slidecontainer{
+  cursor: pointer;
+}
+
+.newArrBtn{
+  padding: 10px 50px;
+  color: white;
+  background-color: #334257;
+  border-radius: 15px;
+  border: 2px solid white;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
+
+.newArrBtn:hover{
+  cursor: pointer;
+  background-color: #6CC4A1;
+  color: black;
+  border-color:#6CC4A1;
+}
+
+.right_header{
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 5rem;
+}
+
+.heading{
+  display: flex;
+  justify-content: right;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+
+}
+
+.heading .fa-eye{
+    font-size: 200%;
+    padding-right: 10px;
+    color: #FFE7BF;
+}
+
+.heading p{
+  font-size: 50px;
+}
+
+
+.btn{
+    padding: 6px 10px;
+    border: none;
+    border-radius: 7px;
+    margin: 5px;
+    color: white;
+    background-color: #334257;
+    font-size: 22px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #6CC4A1;
+  color: black;
+}
+
+.bar {
+  display: flex;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.bar #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 72vh;
+}
